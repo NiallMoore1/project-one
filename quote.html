@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="quote.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- contact form-->
+  <h3>Get A Quote</h3>
+  <div class="container">
+    <form>
+      <div>
+      <label for="firstname"></label>
+      <input type="text" name="firstname" id="firstname" placeholder="Enter first name">
+      <label for="lastname"></label>
+      <input type="text" name="lastname" id="lastname" placeholder="Enter last name">
+      </div>
+      <label for="phone"></label>
+      <input type="text" name="phone" id="phone" placeholder="Enter phone number">
+      <label for="email"></label>
+      <input type="text" name="email" id="email" placeholder="Enter email address">
+      <label for="interested">Interested In</label>
+      <select id="interested" name="interested">
+        <option value="select">Please select</option>
+        <option value="logo">Logo Design</option>
+        <option value="seo">Seo</option>
+        <option value="web">Web design</option>
+        <option value="app">App design</option>
+        <option value="back">Back end</option>
+
+      </select>
+
+      <label for="budget">Budget</label>
+      <select id="budget" name="budget">
+        <option value="select">Please select</option>
+        <option value="one">Up to €250.00</option>
+        <option value="two">€250.00 to €500.00</option>
+        <option value="three">€500.00 to €750.00</option>
+        <option value="four">€750.00 to €1000.00</option>
+        <option value="five">More than €1000.00</option>
+
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" style="height:200px;width:800px;"></textarea>
+      <input type="submit" name="submit" value="submit">
+    </form>
+  </div>
+</body>
+</html>
