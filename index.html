@@ -2,38 +2,54 @@
  <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Affordable and professional web design">
 	  <meta name="keywords" content="web design, affordable web design, professional web design">
   	<meta name="author" content="Niall Moore">
-    <title>Moore Web Deisgn | Welcome</title>
-    
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="styles/style.css">
   </head>
+
+
+
   <body>
     <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Moore</span> Web Design</h1>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!--logo-->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#"class="navbar-brand">Logo</a>
+          </div>
+         <!--menu items-->
+     
+         
+         <div class="collapse navbar-collapse" id="mainnavbar">
+           <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#">Contact</a></li>
+           </ul>
+          </div>
+     
         </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+     
+      </nav>
     </header>
 
-
+<main>
     
     <section id="showcase" class="video-container">
       <video autoplay loop muted>
-          <source src="original_video/video.mp4" type="video/mp4">
+          <source src="./original-video/video.mp4" type="video/mp4">
       </video>
        <div class="overlay-desc">
        <div class="container">
@@ -116,8 +132,8 @@
           
         </div>
       </section>
-    
-      <section id="footer">
+    </main>
+      <footer id="footer">
         <div class="footer">
           <section class="container">
            <div class="row" id="footer-details">
@@ -176,6 +192,8 @@
           </section>
         </div>
       </section>
-    </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7js/bootstrap.min.js"></script>
   </body>
 </html>

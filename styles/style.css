@@ -546,18 +546,10 @@ video {
 
 
 /* Media Queries */
-@media(max-width: 768px){
-  header #branding,
-  header nav,
-  header nav li,
-  #newsletter h1,
-  #newsletter form,
-  #boxes .box,
-  #circle .circle,
-  #language,
-  #language ,
-  #languages,
-  article#main-col,
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
 
   aside#sidebar{
     float:none;
