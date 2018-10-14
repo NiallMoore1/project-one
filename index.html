@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Affordable and professional web design">
 	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Niall Moore">
+    <meta name="author" content="Niall Moore">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js</script>
+
 <link rel="stylesheet" href="styles/style.css">
+    
   </head>
-
-
-
   <body>
     <header>
       <nav class="navbar navbar-inverse">
@@ -47,7 +50,7 @@
       </nav>
     </header>
 
-<main>
+<main class="container-fluid" >
     
     <section id="showcase" class="video-container">
       <video autoplay loop muted>
@@ -55,8 +58,8 @@
       </video>
        <div class="overlay-desc">
        <div class="container">
-         <!--<h1>Affordable Professional Web Design</h1>
-         <p>Welcome to Moore Webdesign</p>-->
+         <h1>Affordable Professional Web Design</h1>
+         <p>Welcome to Moore Webdesign</p>
        </div>
  
        <div class="header-content"> 
@@ -68,8 +71,8 @@
      </section> 
 
     <section id="main">
-        <div class="container">
-          <article id="main-col">
+        <div>
+          <article id="main-col col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <h1 class="page-title">Who we are</h1>
             <p>
                 Moore Webdesign is one of the top software development company's in Ireland Since our inception, we have been successful in delivering  projects of mobile app development, web application development and systems programming with 100% client satisfaction. We also offer online marketing services, back end data entry  services and QA services to companies of all sizes and in all sectors. Our aim is to  provide the best  software development services. Our expert team of software developers, designers and online marketers always think alongside you to turn your software ideas into reality. Contact us Today if you have that game changer idea, that you wish to turn into reality.
@@ -86,14 +89,14 @@
         </div>
     </section>
     
-    <section id="boxes">
-      <div class="container">
+    <section id="boxes" class="row">
+        
         <div class="box">
           <img src="images/design.png">
           <h3>Design</h3>
           <p>Your websites interface it the most impotant part of your website. Our designers at Moore Webdesign will sit down with you to discuse you needs.</p>
         </div>
-        <div class="box">
+        <div class="box">       
           <img src="images/development.png">
           <h3>Development</h3>
           <p>The design and layout of you website is so impotant to your customers and it is important to spend the time with our design team to lay out all your designs on paper before starting the design process.
@@ -104,27 +107,27 @@
           <h3>Quality Assurance</h3>
           <p>Quality Assurance is a key factor we focus on before launching your website. We test all functions of you site to make sure they are all working right and compatable accross all modern browsers. </p>
         </div>
-      </div>
+      
     </section>
 
     <section id="circle">
-        <div class="container">
-          <div class="circle">
+        <div>
+          <div class="circle col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <img src="images/front.jpg">
             <h3>Front end development</h3>
             <p><span><i class="fa fa-check"></i>Html</span></p>
             <p><span><i class="fa fa-check"></i>Css</span></p>
             <p><span><i class="fa fa-check"></i>javaScript</span></p>
           </div>
-          <div class="circle">
+          <div class="circle col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <img src="images/backend.jpg">
             <h3>Backend end development</h3>
             <p><span><i class="fa fa-check"></i>Python</span></p>
             <p><span><i class="fa fa-check"></i>Databases</span></p>
             <p><span><i class="fa fa-check"></i>Django</span></p>
           </div>
-            <div class="circle">
-                <img src="images/car.fw.png">
+            <div class="circle col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <img src="images/front.jpg">
                 <h3>Other</h3>
                 <p><span><i class="fa fa-check"></i>Seo</span></p>
                 <p><span><i class="fa fa-check"></i>Mobile App</span></p>
@@ -135,67 +138,70 @@
         </div>
       </section>
     </main>
-      <footer id="footer">
-        <div class="footer">
-          <section class="container">
-           <div class="row" id="footer-details">
-              <div class="col-sm-4">
-                  <h5 class="uppercase general-sub">Subscribe to our NewsLetter</h5>
-                  <p class="inline-block">
-                      <form>
-                          <input type="email" placeholder="Enter Email...">
-                          <button type="submit" class="button_1">Subscribe</button>
-                        </form>  
-                  </p>
-                </div>
+    <section id="footer">
+      <div class="footer">
+        <section class="container">
+         <div class="row" id="footer-details">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h5 class="uppercase general-sub">Subscribe to our NewsLetter</h5>
+                <p class="inline-block">
+                    <form>
+                        <input type="email" placeholder="Enter Email...">
+                        <button type="submit" class="button_1">Subscribe</button>
+                      </form>  
+                </p>
+              </div>
+              
+           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+             <h5 class="uppercase general-sub">Social Media</h5>
+             <ul class="list-inline social-links">
+                <li>
+                  <a target="blank" href="https://www.facebook.com/ClassicWebDesigner/">
+                    <i class="fa fa-facebook round-icon" id="social_media-facebook-icon"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="blank" href="https://twitter.com/classicwebdesi1?lang=en">
+                    <i class="fa fa-twitter round-icon" id="social_media-twitter-icon"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="blank" href="https://www.linkedin.com/company/classic-web-designer/">
+                    <i class="fa fa-linkedin round-icon" id="social_media-linkedin-icon"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="blank" href="https://www.pinterest.ie/classicwebdesigner">
+                    <i class="fa fa-pinterest round-icon" id="social_media-pintrest-icon"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="blank" href="https://www.instagram.com/classicwebdesigner/">
+                    <i class="fa fa-instagram round-icon" id="social_media-instagram-icon"></i>
+                  </a>
+                </li>
+              </ul>
+           </div>
+           <section id="designer">
+           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <h5 class="uppercase general-sub">Web Design By</h5>
+                <li><a target="#" href="https://www.facebook.com/nialls.moore">Niall Moore</a></li>
                 
-             <div class="col-sm-4">
-               <h5 class="uppercase general-sub">Social Media</h5>
-               <ul class="list-inline social-links">
-                  <li>
-                    <a target="blank" href="https://www.facebook.com/ClassicWebDesigner/">
-                      <i class="fa fa-facebook round-icon" id="social_media-facebook-icon"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a target="blank" href="https://twitter.com/classicwebdesi1?lang=en">
-                      <i class="fa fa-twitter round-icon" id="social_media-twitter-icon"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a target="blank" href="https://www.linkedin.com/company/classic-web-designer/">
-                      <i class="fa fa-linkedin round-icon" id="social_media-linkedin-icon"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a target="blank" href="https://www.pinterest.ie/classicwebdesigner">
-                      <i class="fa fa-pinterest round-icon" id="social_media-pintrest-icon"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a target="blank" href="https://www.instagram.com/classicwebdesigner/">
-                      <i class="fa fa-instagram round-icon" id="social_media-instagram-icon"></i>
-                    </a>
-                  </li>
-                </ul>
-             </div>
-             <section id="designer">
-             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Web Design By</h5>
-                  <li><a target="#" href="https://www.facebook.com/nialls.moore">Niall Moore</a></li>
-                  
-                 
-              </div>  
-            </div> 
-          </section>
-        </div>
-      </section>
-    </footer>
+               
+            </div>  
+          </div> 
+        </section>
+      </div>
+    </section>
+  </section>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+    
+  </main>   
+ </body>
 </html>

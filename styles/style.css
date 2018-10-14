@@ -11,6 +11,13 @@ body{
   box-sizing:border-box;
 }
 
+/*navbar*/
+.navbar {
+  background-color:#35424a;
+  height:100px;
+  padding-bottom:0;
+}
+
 
 /* Global */
 .container{
@@ -107,6 +114,7 @@ header a:hover{
 #myVideo {
   height: 100%;
   z-index: 1;
+  padding-top:0;
 }
 *{
   box-sizing: border-box;
@@ -239,16 +247,15 @@ margin-bottom:0;
   background-color:#e6e6e6;
 }
 
-#boxes .box{
-  float:left;
+ #boxes .box{
+
   text-align: center;
-  width:30%;
-  padding:10px;
+   padding:10px; 
 }
 
 #boxes .box img{
   width:90px;
-}
+} 
 
 /* circle */
 #circle{
