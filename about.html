@@ -7,10 +7,9 @@
 	  <meta name="keywords" content="web design, affordable web design, professional web design">
   	<meta name="author" content="Niall Moore">
     <title>Moore Web Deisgn | Welcome</title>
-    
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <header>
     <nav class="navbar navbar-inverse">
@@ -44,7 +43,7 @@
   </header>
   <main>
   <body>
-    <section id="about-us">
+    <section id="about-us" class="row">
         <div>
           <article>
             <h1 class="page-title">About us</h1>
@@ -54,9 +53,10 @@
           </article>
           </div>
          </section> 
-          
-         <section id="language">
-            <div class="container">
+         
+         <section id="language" class="row">
+            <div class="container-fluid">
+                <article id="language-col col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div class="language">
                 <img src="images/html.png">
                 <h3>Html</h3>
@@ -72,6 +72,7 @@
                 <h3>javaScript</h3>
                 <p>Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web. JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it, and all major web browsers have a dedicated JavaScript engine to execute it.</p>
               </div>
+              </article>
             </div>
           </section>
           
@@ -96,18 +97,18 @@
             </section>
     <section id="boxes">
       <div class="container">
-        <div class="box">
+        <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <img src="images/niall.png">
           <h3>Niall</h3>
           <p>Part  sales and marketing professional, part software and application whisperer. He has a savant-like ability to sense an application’s feasibility and take it to market with freakishly stunning results.  Web, iOS and Android platforms bend to his careful manipulations and deliver unexpected results for his clients.</p>
         </div>
-        <div class="box">
+        <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <img src="images/paul.png">
           <h3>Paul</h3>
           <p>
               Paul normally appears very silent and less interactive with the rest of team. But, it’s because of him that the entire operation runs smoothly without any hassle. He looks quite serious and it seems that he might not be having any hobbies. But he is a Hollywood movies freak.</p>
         </div>
-        <div class="box">
+        <div class="box col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <img src="images/brendan.png">
           <h3>Brendan</h3>
           <p>Brendan carries over a decade of experience in different computing domain.He has expertise in HTML/CSS, javaScript, Python, Mongo Databases, Software Defined Networking, Embedded Systems, Blockchain and Internet of Things. He has several years of experience in working on high-performance networking and storage devices.</p>
@@ -177,5 +178,8 @@
         </div>
       </section>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
