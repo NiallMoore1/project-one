@@ -17,7 +17,21 @@ body{
   height:100px;
   padding-bottom:0;
 }
+.odd {
+  background-color:#ffffff;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+}
 
+.even {
+  background-color:#e6e6e6;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+}
 
 /* Global */
 .container{
@@ -353,21 +367,7 @@ ul#services li{
   background:#e6e6e6;
 }
 
-.odd {
-  background-color:#ffffff;
-  padding-top:20px;
-  padding-bottom:20px;
-  padding-left:20px;
-  padding-right:20px;
-}
 
-.even {
-  background-color:#e6e6e6;
-  padding-top:20px;
-  padding-bottom:20px;
-  padding-left:20px;
-  padding-right:20px;
-}
 
 /*contact us */
 
