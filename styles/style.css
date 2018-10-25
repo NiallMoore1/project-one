@@ -14,7 +14,7 @@ body{
 /*navbar*/
 .navbar {
   background-color:#35424a;
-  height:100px;
+  height:230px;
   padding-bottom:0;
 }
 .odd {
@@ -112,12 +112,12 @@ header .highlight, header .current a{
   color:#e8491d;
   font-weight:bold;
 }
-
+*/
 header a:hover{
-  color:#cccccc;
+  color:red;
   font-weight:bold;
 }
-*/
+
 /* Showcase */
 #showcase{
   min-height:400px;
@@ -229,17 +229,6 @@ margin-bottom:0;
   background:#333;
   color:#fff;
 }
-
-@media(max-width:960px;){
-.container{
-  padding-right:3rem;
-  padding-left:3rem;
-}
-}
-
-
-
-
 
 /* Newsletter */
 #newsletter{
@@ -567,9 +556,20 @@ video {
 
 /* Media Queries */
 
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width:768px) {
+  .navbar {height:50px}
+}
+
+@media (min-width:769px) and (max-width:1200px){
+  .navbar {height:50px}
+}
+
+@media (min-width:1201px) {
+  .navbar {height:50px}  
+}
+
+
+
 
   aside#sidebar{
     float:none;
@@ -594,4 +594,3 @@ video {
     width:100%;
     margin-bottom:5px;
   }
-}
