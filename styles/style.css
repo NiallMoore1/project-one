@@ -14,8 +14,12 @@ body{
 /*navbar*/
 .navbar {
   background-color:#35424a;
-  height:230px;
+
   padding-bottom:0;
+}
+
+.tallNav {
+	height: 230px;
 }
 .odd {
   background-color:#ffffff;
@@ -462,11 +466,15 @@ border-radius:3px;
 /*footer*/
 #footer {
   padding:20px;
-  margin-top:20px; 
+  margin-top:0px; 
   color:#ffffff;
   background-color:#35424a;
-  text-align: center;
+  text-align:center;
+  display:inline-block;
+
 }
+
+
 
 /*social media buttons*/
 
@@ -554,7 +562,7 @@ video {
 }
 
 
-/* Media Queries */
+/* Media Queries 
 
 @media (min-width:768px) {
   .navbar {height:50px}
@@ -567,7 +575,7 @@ video {
 @media (min-width:1201px) {
   .navbar {height:50px}  
 }
-
+*/
 
 
 
