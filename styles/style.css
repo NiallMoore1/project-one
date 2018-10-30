@@ -513,3 +513,43 @@ video {
     width:100%;
     margin-bottom:5px;
   }
+
+  /*get a quote form
+
+h3{
+  text-align:center;
+}
+
+.container{
+  margin:auto;
+  width:80%;
+  border-radius:5px;
+  background-color:#f2f2f2;
+  background:url("images/typing.mp4") no-repeat;
+  padding:20px;
+}
+
+input[type=text],select {
+  width:40%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  border-radius:4px;
+  resize:none;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  background-color:#4caf50;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+input[type=contact-our-team]:hover{
+ background-color:#45a049;
+}
+*/
