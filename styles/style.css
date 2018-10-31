@@ -161,7 +161,7 @@ header a:hover{
 
 .container{
   max-width:960px;
-  padding-left: 1rem;
+  /*padding-left: 1rem;*/
   margin:auto;
   text-align: center;
 }
@@ -450,7 +450,9 @@ ul#services li{
 }
 
 .video-container {
-  position: relative;
+  
+  padding-right:0px;
+  padding-left:0px;
 }
 video {
   height: auto;
@@ -489,11 +491,11 @@ video {
     text-align:center;
     width:100%;
   }
-
+/*
   header{
     padding-bottom:20px;
   }
-
+*/
   #showcase h1{
     margin-top:40px;
   }
