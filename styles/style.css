@@ -16,7 +16,7 @@ body{
 /*navbar*/
 .navbar {
   background-color:#35424a;
-
+  margin:0;
   padding-bottom:0;
 }
 
@@ -449,10 +449,16 @@ ul#services li{
   text-decoration: none;
 }
 
-.video-container {
+.container-fluid{
   
-  padding-right:0px;
-  padding-left:0px;
+  padding:0px;
+  margin:0px;
+  
+}
+
+.video-container {
+  position: relative;
+  
 }
 video {
   height: auto;
