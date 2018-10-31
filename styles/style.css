@@ -17,7 +17,7 @@ body{
 .navbar {
   background-color:#35424a;
   margin:0;
-  padding-bottom:0;
+  padding:0;
 }
 
 .tallNav {
@@ -25,7 +25,7 @@ body{
 }
 .odd {
   background-color:#ffffff;
-  padding-top:20px;
+  
   padding-bottom:20px;
   padding-left:20px;
   padding-right:20px;
@@ -44,6 +44,23 @@ body{
   width:80%;
   margin:auto;
   overflow:hidden;
+}
+
+.sides{
+  padding:0px;
+  margin:0px;
+}
+
+
+
+.video-container {
+  position: relative;
+  
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
 }
 
 ul{
@@ -78,47 +95,6 @@ ul{
   margin-right: auto;
 }
 
-
-/* Header 
-header{
-  background:#35424a;
-  color:#ffffff;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom:#e8491d 3px solid;
-}
-
-header a{
-  color:#ffffff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
-}
-
-header li{
-  float:left;
-  display:inline;
-  padding: 0 20px 0 20px;
-}
-
-header #branding{
-  float:left;
-}
-
-header #branding h1{
-  margin:0;
-}
-
-header nav{
-  float:right;
-  margin-top:10px;
-}
-
-header .highlight, header .current a{
-  color:#e8491d;
-  font-weight:bold;
-}
-*/
 header a:hover{
   color:red;
   font-weight:bold;
@@ -145,7 +121,7 @@ header a:hover{
 #myVideo {
   height: 100%;
   z-index: 1;
-  padding-top:0;
+  padding:0px;
 }
 *{
   box-sizing: border-box;
@@ -449,22 +425,7 @@ ul#services li{
   text-decoration: none;
 }
 
-.container-fluid{
-  
-  padding:0px;
-  margin:0px;
-  
-}
 
-.video-container {
-  position: relative;
-  
-}
-video {
-  height: auto;
-  vertical-align: middle;
-  width: 100%;
-}
 .overlay-desc {
   background: rgba(0,0,0,0);
   position: absolute;
