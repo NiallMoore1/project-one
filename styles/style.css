@@ -329,13 +329,14 @@ ul#services li{
 
 
 /*footer*/
-#footer {
+.footer{
   padding:20px;
-  margin-top:0px; 
+  margin:0px; 
   color:#ffffff;
   background-color:#35424a;
   text-align:center;
   display:inline-block;
+  width:100%;
 
 }
 
