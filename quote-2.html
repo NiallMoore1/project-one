@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Get A Quote</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Affordable and professional web design">
+	<meta name="keywords" content="web design, affordable web design, professional web design">
+	<meta name="author" content="Niall Moore">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="quote.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+	<style>
+		body{
+			background-image: url(images/background.jpg);
+			background-size:cover;
+		}
+		hr{
+			background: white;	
+		}
+
+	.contact-form{
+		background:rgba(0,0,0, .6);
+		color:white;
+		margin-top: 100px;
+		padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+    background-repeat:no-repeat;
+	}
+ </style>
+
+
+
+	<body>
+		<section>
+			<form>
+				<div class="container contact-form">
+					<h1>Get A Quote</h1>
+					<hr>
+					<div class="col-xs-12 col-md-6">
+						<div class="form-group">
+
+							<label for="firstname">First Name</label>
+							<input type="text" name="firstname"id ="firstname" placeholder ="Enter first name">
+						</div>
+
+						<div class="form-group">
+
+							<label for="phone">Phone</label>
+							<input type="text" name="phone"id ="phone" placeholder ="Enter phone number">
+						</div>
+						<div class="form-group">
+							<label for=interestedin>Interested In</label>
+							<select id="interestedin"name ="interestedin">
+								<option value ="logodesign">Logo Design</option>
+								<option value ="seo">Seo</option>
+								<option value ="webdesign">Webdesign</option>
+								<option value ="appdesign">App Design</option>
+								<option value ="backend">Backend Development</option>
+							</select>
+						</div>
+					</div>
+
+						  <!--Rightside -->
+					<div class="col-xs-12 col-md-6">
+					        <div class="form-group">
+							<label for="lastname">Last Name</label>
+							<input type="text"  name="lastname"id ="lastname" placeholder ="Enter last name">
+					       </div>
+					        <div class="form-group">
+							<label for="email">Email</label>
+						        <input type="text"  name="email"id ="email" placeholder ="Enter email address">   
+					        </div>
+					        <div class="form-group">
+								    <label for="budget">Budget</label>
+								    <select id="budget" name="budget">
+									<option value="select">Please select</option>
+									<option value="one">Up to €250.00</option>
+									<option value="two">€250.00 to €500.00</option>
+									<option value="three">€500.00 to €750.00</option>
+									<option value="four">€750.00 to €1000.00</option>
+									 <option value="five">More than €1000.00</option>
+								    </select>
+							</div>
+                                        </div>
+
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control" rows="7"></textarea>
+					        </div>
+
+					        <div class="form-group">
+							<button class="btn btn-primary btn-block">Send</button>
+						</div>
+					
+				</div>
+			</form>
+		</section>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js">
+		</script>
+
+
+	</body>
+
+</html>

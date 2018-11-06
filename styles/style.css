@@ -325,8 +325,12 @@ ul#services li{
 
 /*contact us */
 
-
-
+    /*
+		body{
+			background-image: url(images/background.jpg);
+			background-size:cover;
+    }
+    */	
 
 /*footer*/
 .footer{
@@ -420,34 +424,12 @@ ul#services li{
   justify-content: center;
 }
 
-
-/* Media Queries 
-
-@media (min-width:768px) {
-  .navbar {height:50px}
-}
-
-@media (min-width:769px) and (max-width:1200px){
-  .navbar {height:50px}
-}
-
-@media (min-width:1201px) {
-  .navbar {height:50px}  
-}
-*/
-
-
-
   aside#sidebar{
     float:none;
     text-align:center;
     width:100%;
   }
-/*
-  header{
-    padding-bottom:20px;
-  }
-*/
+
   #showcase h1{
     margin-top:40px;
   }
@@ -462,7 +444,7 @@ ul#services li{
     margin-bottom:5px;
   }
 
-  /*get a quote form
+  /*get a quote form*/
 
 h3{
   text-align:center;
@@ -478,7 +460,7 @@ h3{
 }
 
 input[type=text],select {
-  width:40%;
+  
   padding:12px;
   border:1px solid #ccc;
   margin-top:6px;
@@ -500,4 +482,3 @@ input[type=submit]{
 input[type=contact-our-team]:hover{
  background-color:#45a049;
 }
-*/
