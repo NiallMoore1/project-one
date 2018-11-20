@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #container {
+            background: rgba(0,0,0,0.5);
+            width: 70%;
+            margin: auto;
+            padding: 30px;
+        }
+        
+        body{
+			background-image: url(images/background.jpg);
+			background-size:cover;
+		}
+        label {
+            display: block;
+            color: white;
+            margin: 25px 0 5px;
+        }
+
+        input {
+            display: inline-block;
+            width: 100%;
+            height: 50px;
+        }
+      
+        #interestedin {
+           display: inline-block; 
+           width: 100%; 
+           height: 50px;
+        }
+       
+        #budget {
+           display: inline-block; 
+           width: 100%; 
+           height: 50px;
+        }
+
+        textarea {
+            display: block;
+            width: 100%;
+        }
+        button {
+            background-color: cornflowerblue;
+            color: white;
+            width: 100%;
+            margin-top: 25px;
+            height: 50px;
+        }
+
+        @media screen and (min-width: 700px) {
+            .input {
+                display: inline-block;
+                width: 49%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <!-- Either Half width or full width -->
+            <div class="input">
+                <label>First Name</label>
+                <input type="text" placeholder="Enter first name">
+            </div>
+            <div class="input">
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter last name">
+            </div>
+            <div class="input">
+                <label>Phone</label>
+                <input type="text" placeholder="Enter phone number">
+            </div>
+            <div class="input">
+                <label>Email</label>
+                <input type="email" placeholder="Enter email address">
+            </div>
+            <div class="input">
+                <label>Interested In</label>
+               <!-- <input type="text" placeholder="Please Select"> -->
+                <select id="interestedin" name="interestedin">
+                    <option value="select">Please select</option>
+                    <option value="logodesign">Logo Design</option>
+                    <option value="seo">Seo</option>
+                    <option value="webdesign">Webdesign</option>
+                    <option value="appdesign">App Design</option>
+                    <option value="backend">Backend Development</option>
+                </select>
+            </div>
+            <div class="input">
+                <label>Budget</label>
+               <!-- <input type="text" placeholder="Please Select"> -->
+                <select id="budget" name="budget">
+                    <option value="select">Please select</option>
+                    <option value="one">Up to €250.00</option>
+                    <option value="two">€250.00 to €500.00</option>
+                    <option value="three">€500.00 to €750.00</option>
+                    <option value="four">€750.00 to €1000.00</option>
+                    <option value="five">More than €1000.00</option>
+                </select>
+            </div>
+            <!-- Full Width -->
+            <div id="full-width">
+                <label>Message</label>
+                <textarea rows="10"></textarea>
+            </div>
+            <button>Contact Our Team</button>
+        </form>
+    </div>
+</body>
+</html>
